@@ -127,17 +127,23 @@ header {
 
 }
 
-@media(min-width:1024px) {
+@media(min-width:1024px){
     .nosotros-container {
-        height: 100vh;
-
+        height: 100vh; 
+        display: flex;
+        justify-content: center;
     }
 
     .titulo-nosotros {
+        font-size: 3rem;
+    }
+
+     
+    .parrafo-nosotros{
         font-size: 2rem;
     }
 
-}
+    }
 
     /* SECCION GALERIA*/
     .galeria h2 {
