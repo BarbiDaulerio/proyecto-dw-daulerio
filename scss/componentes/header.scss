@@ -1,0 +1,45 @@
+/*---HEADER---*/
+
+header {
+    background-color: #1e1d22;
+    color: white;
+    padding: 1rem;
+
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+.nav-header {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+
+}
+
+@media(min-width:1024px) {
+
+    .header {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: 1fr 1fr;
+
+    }
+
+    .titulo-header {
+        display: flex;
+        justify-content: start;
+        font-size: 2rem;
+    }
+
+    .nav-header {
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 1.2rem;
+    }
+
+}

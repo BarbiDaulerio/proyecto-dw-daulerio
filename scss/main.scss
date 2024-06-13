@@ -1,0 +1,14 @@
+// import de archivo bases//
+@import "./bases";
+
+//import de los componentes
+@import "./componentes/footer.scss";
+@import "./componentes/header.scss";
+
+//import de las pages//
+
+@import "./pages/contactos.scss";
+@import "./pages/galeria.scss";
+@import "./pages/nosotros.scss";
+@import "./pages/proximamente.scss";
+
