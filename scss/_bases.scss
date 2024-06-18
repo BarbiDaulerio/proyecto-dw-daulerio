@@ -19,17 +19,20 @@ img {
 
 }
 
-a {
-    color: white;
-    text-decoration: none;
 
+ul{
+    li{
+        list-style-type: none;
+        text-align: center;
+        margin: 0.3rem;
+
+        a{color: white;
+            text-decoration: none;
+        }
+    }
 }
 
-ul li {
-    list-style-type: none;
-    text-align: center;
-    margin: 0.3rem;
-}
+
 
 h1 {
     margin: 0.5rem;

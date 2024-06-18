@@ -14,15 +14,14 @@ img {
   max-width: 100%;
 }
 
-a {
-  color: white;
-  text-decoration: none;
-}
-
 ul li {
   list-style-type: none;
   text-align: center;
   margin: 0.3rem;
+}
+ul li a {
+  color: white;
+  text-decoration: none;
 }
 
 h1 {
