@@ -82,6 +82,10 @@ h2 {
     font-size: 2rem;
   }
 }
+.imagen-portada-index {
+  max-width: 100%;
+}
+
 /* SECCION NOSOTROS*/
 .nosotros-container {
   font-size: 1rem;
