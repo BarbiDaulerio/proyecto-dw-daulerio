@@ -140,7 +140,7 @@ header {
 
 
     .parrafo-nosotros {
-        font-size: 2rem;
+        font-size: 3rem;
     }
 
 }
@@ -303,5 +303,13 @@ footer {
 
 
 footer p{
-    font-size: 20px;
+    font-size: 10px;
+}
+
+
+@media(min-width:1024px){
+
+    footer p{
+        font-size: 20px;
+    }
 }
