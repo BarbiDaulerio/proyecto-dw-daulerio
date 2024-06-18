@@ -1,32 +1,40 @@
 /* SECCION CONTACTOS*/
 
 
-.container-contacto {
+.contacto {
     text-align: center;
     font-size: 0.7rem;
     margin: 2rem;
     border: 1px solid black;
+
+    &-titulo {
+        text-align: center;
+        text-decoration: underline;
+        margin: 1rem;
+    }
+
+    &-subtitulo {
+        text-decoration: underline;
+        margin: 2rem;
+    }
+
+    &-info {
+        font-size: 1rem;
+
+    }
+
+    &-label {
+        margin: 1rem;
+    }
+
+    &-boton {
+        margin: 0.5rem;
+    }
+
+
 }
 
 
 
-.container-contacto h2 {
-    text-align: center;
-    text-decoration: underline;
-    margin: 1rem;
 
-}
-
-.container-contacto h3 {
-    text-decoration: underline;
-    margin: 2rem;
-}
-
-.boton {
-    margin: 0.5rem;
-}
-
-.label {
-    margin: 1rem;
-}
-
+@media (min-width:1200px) {}
