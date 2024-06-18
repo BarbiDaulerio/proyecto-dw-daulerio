@@ -1,0 +1,17 @@
+//imports de archivos
+
+//import de bases
+@import "./bases";
+
+//import de pages
+
+@import "./pages/Contacto";
+@import "./pages/Galeria";
+@import "./pages/Inicio";
+@import "./pages/Nosotros";
+@import "./pages/proximamente";
+
+//import components
+
+@import "./components/footer";
+@import "./components/header";

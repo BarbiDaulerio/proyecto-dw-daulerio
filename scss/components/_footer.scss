@@ -1,0 +1,25 @@
+/* FOOTER */
+
+footer {
+    background-color: #1e1d22;
+    color: white;
+    padding: 5rem;
+    
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+footer p{
+    font-size: 10px;
+}
+
+
+@media(min-width:1024px){
+
+    footer p{
+        font-size: 20px;
+    }
+}
