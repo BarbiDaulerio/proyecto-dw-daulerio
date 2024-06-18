@@ -1,0 +1,229 @@
+@charset "UTF-8";
+/*RESETEO DE CSS, HACELO SIEMPRE ASI CON BORDER-BOX*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+/* COLOR DE HEADER, FOOTER, ETC #1e1d22*/
+/* PROXIMAMENTE background-color: #989776;*/
+/*  GENERALIDADES */
+img {
+  max-width: 100%;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+ul li {
+  list-style-type: none;
+  text-align: center;
+  margin: 0.3rem;
+}
+
+h1 {
+  margin: 0.5rem;
+}
+
+h2 {
+  text-decoration: underline;
+  margin: 0.5rem;
+  font-size: 1rem;
+}
+
+/* SECCION CONTACTOS*/
+.container-contacto {
+  text-align: center;
+  font-size: 0.7rem;
+  margin: 2rem;
+  border: 1px solid black;
+}
+
+.container-contacto h2 {
+  text-align: center;
+  text-decoration: underline;
+  margin: 1rem;
+}
+
+.container-contacto h3 {
+  text-decoration: underline;
+  margin: 2rem;
+}
+
+.boton {
+  margin: 0.5rem;
+}
+
+.label {
+  margin: 1rem;
+}
+
+/* SECCION GALERIA*/
+.galeria h2 {
+  text-align: center;
+}
+
+.galeria {
+  margin: 3rem;
+}
+
+.galeria img {
+  width: 100%;
+  aspect-ratio: 16/17;
+}
+
+@media (min-width: 600px) {
+  .img-galeria {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+/* SECCION NOSOTROS*/
+.nosotros-container {
+  font-size: 1rem;
+  text-align: center;
+  background-color: #1e1d22;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+}
+
+.titulo-nosotros {
+  text-decoration: underline;
+}
+
+@media (min-width: 1024px) {
+  .nosotros-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+  }
+  .titulo-nosotros {
+    font-size: 3rem;
+  }
+  .parrafo-nosotros {
+    font-size: 3rem;
+  }
+}
+/* SECCION PRÓXIMAMENTE*/
+.container-proximamente {
+  background-color: #d3d3c2;
+  padding: 50px;
+}
+
+.articulo-proximamente a {
+  font-size: 0.9rem;
+  text-align: center;
+  margin: 1rem 1rem;
+}
+
+h2 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+.boton-proximamente a {
+  color: white;
+  border: 2px solid white;
+  background-color: #3e5c2a;
+  display: block;
+  padding: 3px;
+  margin: 5px;
+  border-radius: 10%;
+}
+
+.proximamente-img {
+  font-size: 50%;
+  margin: 1rem 1rem;
+}
+
+@media (min-width: 600px) {
+  .container-proximamente {
+    display: flex;
+    background-color: #d3d3c2;
+  }
+  .articulo-proximamente {
+    font-size: 0.9rem;
+    text-align: center;
+    align-self: center;
+    margin: 1rem 1rem;
+  }
+}
+@media (min-width: 1024px) {
+  .articulo-proximamente h2 {
+    font-size: 1.5rem;
+  }
+  .articulo-proximamente p {
+    font-size: 1.2rem;
+  }
+  .boton-proximamente a {
+    font-size: 1.1rem;
+    display: inline-flex;
+  }
+}
+/* FOOTER */
+footer {
+  background-color: #1e1d22;
+  color: white;
+  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer p {
+  font-size: 10px;
+}
+
+@media (min-width: 1024px) {
+  footer p {
+    font-size: 20px;
+  }
+}
+/*---HEADER---*/
+header {
+  background-color: #1e1d22;
+  color: white;
+  padding: 1rem;
+  font-size: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav-header {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+@media (min-width: 1024px) {
+  .header {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr 1fr;
+  }
+  .titulo-header {
+    display: flex;
+    justify-content: start;
+    font-size: 2rem;
+  }
+  .nav-header {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.2rem;
+  }
+  /*no se como hacer que la imagen ocupe todo, no se si puse mal el 100%*/
+}
+
+/*# sourceMappingURL=styles.css.map */
