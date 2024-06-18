@@ -1,28 +1,19 @@
 /* SECCION GALERIA*/
 
-
-// .galeria h2 {
-//     text-align: center;
-//   }
-  
-  .galeria {
+.galeria {
     margin: 3rem;
 
-    & h2{
+
+    & h2 {
         text-align: center;
+        font-size: 1rem;
     }
 
-    & img{
+    & img {
         width: 100%;
         aspect-ratio: 16/17;
     }
-  }
-  
-//   .galeria img {
-//     width: 100%;
-//     aspect-ratio: 16/17;
-//   } 
-  
+}
 
 
 
@@ -36,6 +27,8 @@
 
     }
 
-
+    .galeria h2{
+    font-size: 2rem;
+    }
 
 }

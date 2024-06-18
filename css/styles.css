@@ -35,41 +35,39 @@ h2 {
 }
 
 /* SECCION CONTACTOS*/
-.container-contacto {
+.contacto {
   text-align: center;
   font-size: 0.7rem;
   margin: 2rem;
   border: 1px solid black;
 }
-
-.container-contacto h2 {
+.contacto-titulo {
   text-align: center;
   text-decoration: underline;
   margin: 1rem;
 }
-
-.container-contacto h3 {
+.contacto-subtitulo {
   text-decoration: underline;
   margin: 2rem;
 }
-
-.boton {
+.contacto-info {
+  font-size: 1rem;
+}
+.contacto-label {
+  margin: 1rem;
+}
+.contacto-boton {
   margin: 0.5rem;
 }
 
-.label {
-  margin: 1rem;
-}
-
 /* SECCION GALERIA*/
-.galeria h2 {
-  text-align: center;
-}
-
 .galeria {
   margin: 3rem;
 }
-
+.galeria h2 {
+  text-align: center;
+  font-size: 1rem;
+}
 .galeria img {
   width: 100%;
   aspect-ratio: 16/17;
@@ -79,6 +77,9 @@ h2 {
   .img-galeria {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+  }
+  .galeria h2 {
+    font-size: 2rem;
   }
 }
 /* SECCION NOSOTROS*/
@@ -97,17 +98,17 @@ h2 {
   text-decoration: underline;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1200px) {
   .nosotros-container {
     height: 100vh;
     display: flex;
     justify-content: center;
   }
   .titulo-nosotros {
-    font-size: 3rem;
+    font-size: 2rem;
   }
   .parrafo-nosotros {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 }
 /* SECCION PRÓXIMAMENTE*/
