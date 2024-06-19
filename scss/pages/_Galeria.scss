@@ -27,8 +27,14 @@
 
     }
 
-    .galeria h2{
-    font-size: 2rem;
+    .galeria h2 {
+        font-size: 2rem;
     }
 
+}
+
+@media(min-width:1024px) {
+    .img-galeria:hover {
+        transition: scale(2);
+    }
 }
