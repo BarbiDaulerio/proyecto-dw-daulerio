@@ -40,13 +40,13 @@ header {
         display: flex;
         justify-content: space-evenly;
         font-size: 1.2rem;
-    }
 
-    .nav-item{
-        &-link:hover{
-            transition: scale(2);
+        .nav-link:hover{
+            transform: scale(2);
         }
     }
+
+
 
     /*no se como hacer que la imagen ocupe todo, no se si puse mal el 100%*/
 
