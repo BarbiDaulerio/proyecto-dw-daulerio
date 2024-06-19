@@ -58,6 +58,10 @@ h2 {
 
 @media (min-width: 1200px) {
   .container-contacto {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: 66vh;
     text-align: center;
     font-size: 1rem;
     margin: 2rem;
@@ -122,6 +126,9 @@ h2 {
     height: 100vh;
     display: flex;
     justify-content: center;
+  }
+  .nosotros-container p {
+    font-size: 2rem;
   }
   .titulo-nosotros {
     font-size: 2rem;
@@ -242,7 +249,7 @@ header {
     justify-content: space-evenly;
     font-size: 1.2rem;
   }
-  .nav-header .nav-link:hover {
+  .nav-header-link:hover {
     transform: scale(2);
   }
   /*no se como hacer que la imagen ocupe todo, no se si puse mal el 100%*/
