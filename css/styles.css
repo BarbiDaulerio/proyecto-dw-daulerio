@@ -57,6 +57,17 @@ h2 {
   margin: 0.5rem;
 }
 
+@media (min-width: 1200px) {
+  .container-contacto {
+    text-align: center;
+    font-size: 1rem;
+    margin: 2rem;
+    border: 1px solid black;
+  }
+  .container-contacto h2 {
+    font-size: 1.5rem;
+  }
+}
 /* SECCION GALERIA*/
 .galeria {
   margin: 3rem;
