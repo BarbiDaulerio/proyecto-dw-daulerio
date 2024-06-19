@@ -58,9 +58,6 @@ h2 {
 
 @media (min-width: 1200px) {
   .container-contacto {
-    display: block;
-    justify-content: center;
-    align-items: center;
     height: 66vh;
     text-align: center;
     font-size: 1rem;
@@ -249,7 +246,8 @@ header {
     justify-content: space-evenly;
     font-size: 1.2rem;
   }
-  .nav-header-link:hover {
+  .nav-header .nav-link:hover {
+    background-color: #d3d3c2;
     transform: scale(2);
   }
   /*no se como hacer que la imagen ocupe todo, no se si puse mal el 100%*/
