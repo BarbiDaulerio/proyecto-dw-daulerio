@@ -35,29 +35,30 @@ h2 {
 }
 
 /* SECCION CONTACTOS*/
-.contacto {
+.container-contacto {
   text-align: center;
   font-size: 0.7rem;
   margin: 2rem;
   border: 1px solid black;
 }
-.contacto-titulo {
+
+.container-contacto h2 {
   text-align: center;
   text-decoration: underline;
   margin: 1rem;
 }
-.contacto-subtitulo {
+
+.container-contacto h3 {
   text-decoration: underline;
   margin: 2rem;
 }
-.contacto-info {
-  font-size: 1rem;
-}
-.contacto-label {
-  margin: 1rem;
-}
-.contacto-boton {
+
+.boton {
   margin: 0.5rem;
+}
+
+label {
+  margin: 1rem;
 }
 
 /* SECCION GALERIA*/
