@@ -34,7 +34,7 @@
 }
 
 @media(min-width:1024px) {
-    .img-galeria:hover {
-        transition: scale(2);
+    .img:hover {
+        transform: scale(1.1);
     }
 }
