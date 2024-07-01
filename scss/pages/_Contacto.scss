@@ -22,9 +22,16 @@
 
 
 
-.boton {
-    margin: 0.5rem;
-    font-size: 15px;
+.boton-proximamente a {
+    color: white;
+    border: 2px solid white;
+    background-color: #3e5c2a;
+    display: block;
+
+
+    padding: 3px;
+    margin: 5px;
+    border-radius: 10%;
 }
 
 
@@ -46,7 +53,15 @@
         }
     }
 
-    .boton {
-        font-size: 20px;
+    .boton-proximamente a {
+        color: white;
+        border: 2px solid white;
+        background-color: #3e5c2a;
+        display: block;
+    
+    
+        padding: 3px;
+        margin: 5px;
+        border-radius: 10%;
     }
 }

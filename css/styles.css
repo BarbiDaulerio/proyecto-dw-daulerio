@@ -51,9 +51,14 @@ h2 {
   margin: 2rem;
 }
 
-.boton {
-  margin: 0.5rem;
-  font-size: 15px;
+.boton-proximamente a {
+  color: white;
+  border: 2px solid white;
+  background-color: #3e5c2a;
+  display: block;
+  padding: 3px;
+  margin: 5px;
+  border-radius: 10%;
 }
 
 @media (min-width: 1200px) {
@@ -67,8 +72,14 @@ h2 {
   .container-contacto h2 {
     font-size: 1.5rem;
   }
-  .boton {
-    font-size: 20px;
+  .boton-proximamente a {
+    color: white;
+    border: 2px solid white;
+    background-color: #3e5c2a;
+    display: block;
+    padding: 3px;
+    margin: 5px;
+    border-radius: 10%;
   }
 }
 /* SECCION GALERIA*/
