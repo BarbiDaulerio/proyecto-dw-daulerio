@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
 
@@ -11,7 +10,7 @@
 /* PROXIMAMENTE background-color: #989776;*/
 
 
-$color-principal:#1e1d22;
+$color-principal: #1e1d22;
 
 /*  GENERALIDADES */
 img {
@@ -20,13 +19,13 @@ img {
 }
 
 
-ul{
-    li{
+ul {
+    li {
         list-style-type: none;
         text-align: center;
         margin: 0.3rem;
 
-        a{
+        a {
             color: white;
             text-decoration: none;
         }
@@ -46,7 +45,3 @@ h2 {
     font-size: 1rem;
 
 }
-
-
-
-
